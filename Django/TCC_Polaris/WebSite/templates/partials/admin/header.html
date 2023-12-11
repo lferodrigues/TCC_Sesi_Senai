@@ -1,0 +1,15 @@
+{% load static %}
+<header>
+    <div class="logosec">
+        <div class="logo">Catalog Z Polaris - Dashboard</div>
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png" class="icn menuicn" id="menuicn" alt="menu-icon">
+    </div>
+    <form method="GET" action="{% url 'listarFotos' %}" class="mb-3">
+        <div class="searchbar d-flex input-group">
+            <input type="text" name="search" placeholder="Search">
+            <button class="searchbtn">
+                <img type="submit" src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png" class="icn srchicn" alt="search-icon">
+            </button>
+        </div>
+    </form>
+</header>
